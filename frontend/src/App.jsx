@@ -94,7 +94,7 @@ function App() {
         <div className="left">
 
   <div className="editor-header">
-    <span>Paste or write your code • Get an AI-powered review</span>
+    <span>Paste or write your code and Get an AI-powered review</span>
   </div>
 
   <div className="code">
