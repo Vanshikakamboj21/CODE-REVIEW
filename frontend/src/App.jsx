@@ -93,23 +93,27 @@ function App() {
 
         <div className="left">
 
-          <div className="code">
+  <div className="editor-header">
+    <span>Paste or write your code • Get an AI-powered review</span>
+  </div>
 
-            <textarea
-              value={code}
-              onChange={e => setCode(e.target.value)}
-            />
+  <div className="code">
 
-          </div>
+    <textarea
+      value={code}
+      onChange={e => setCode(e.target.value)}
+    />
 
-          <div
-            onClick={reviewCode}
-            className="review"
-          >
-            Review
-          </div>
+  </div>
 
-        </div>
+  <div
+    onClick={reviewCode}
+    className="review"
+  >
+    Review
+  </div>
+
+</div>
 
         <div
           className="right"
